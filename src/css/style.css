@@ -1,0 +1,52 @@
+.page {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 800px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    overflow-y: auto;
+}
+
+.box {
+    width: auto;
+}
+
+.poster {
+    margin-bottom: 0;
+}
+
+.poster-time {
+    margin-top: 2px;
+}
+
+.poster-text {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.comments-title {
+    text-decoration: underline;
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-body {
+    width: 85%;
+}
+
+.comment-time {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 5%;
+}
