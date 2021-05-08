@@ -1,7 +1,5 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import moment from 'moment';
-
-const faker = require('faker');
+import faker from 'faker';
 
 faker.locale = 'fi';
 // простой код для отрисовки элементов, jsonplaceholder дурацкая библиотека, пришлось дополнительно использовать faker
