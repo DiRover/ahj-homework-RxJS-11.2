@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import moment from 'moment';
 
 const faker = require('faker');
